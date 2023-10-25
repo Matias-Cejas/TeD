@@ -46,4 +46,3 @@ else:
     
     # Mostrar los datos filtrados con columnas seleccionadas y más anchas
     st.dataframe(filtered_data[['userId', 'role', 'TotalMeces', 'señority']], width=10000, height=750)
-st.write(data.columns)
